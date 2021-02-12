@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<title>Actividad 2</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("numu").value);
+        var n2= Number(document.getElementById("numd").value);
+        var res=n1+n2;
+        document.getElementById('resu').value=res;
+        x.push(res);
+        res.value=x.length;
+        document.getElementById('cuenta').value=x;
+
+
+        }
+
+</script>
+<p class="frt">Calculadora</p>
+<div class="tabl">
+<form>
+        <label ></label><br>
+        <input type="text" id="numu" placeholder="Ingrese un numero" ><br><br>
+        <input type="text" id="numd" placeholder="Ingrese un numero" ><br><br>
+        <br>
+        <br>
+        <input type="button" value="=" onclick="suma();">
+        <br>
+        <br>
+        <br>
+        <label ></label><br>
+        <input type="" id="resu" value="">
+        <input type="" id="cuenta" value="">
+
+    </form></div>
+    <a href="index.html">
+        <button class="but00">Home</button>
+        </a>
+</body>
+</html>
+
+    </html>
