@@ -353,4 +353,55 @@ body{
  			color: white;
 
  		}
+    .bot8{
+  position: absolute;
+  border: solid;
+  background-color: #3C7B89;
+  color: white;
+  height: 70px;
+  width: 170px;
+  left: -600px;
+  top: -300px;
+  font-size: 25px;
+ }
+ .bot8:hover{
+  color:  #3C7B89;
+  background-color: white;
 
+  }
+.tabl{
+  position: absolute;
+  left: 530px;
+  top: 170px;
+  background: url(calcuu.jpg);
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  border-radius: 5%;
+
+}
+.frt{
+  font-family: inherit;
+  font-size: 60px;
+  position: absolute;
+  color: #1B537E;
+  left: 510;
+}
+.frt:hover{
+  color: #239C89;
+}
+.but00{
+  position: absolute;
+  background-color: #458084;
+  color: black;
+  border: solid;
+  height: 50px;
+  width: 110px;
+  top: 530px;
+  font-size: 18px;
+  left: 990px;
+}
+.but00:hover{
+  background-color: #214870;
+  color: white;
+}
