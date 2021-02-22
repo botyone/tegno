@@ -442,6 +442,7 @@ body{
     background-color: #3C7B89;
     border: solid;
     color: white;
+    border-radius: 1px;
   }
   .botonex:hover{
   color: #3C7B89;
