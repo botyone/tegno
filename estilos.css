@@ -405,3 +405,45 @@ body{
   background-color: #214870;
   color: white;
 }
+.botona{
+  position: absolute;
+  top: -299px;
+  left: -395px;
+  font-size: 25px;
+  background-color: #3C7B89;
+  border: solid;
+  color: white;
+  width: 170px;
+  height: 70px;
+}
+.botona:hover{
+  color: #3C7B89;
+  background-color: white;
+
+  }
+  .tituloe{
+    position: absolute;
+   font-size: 40px;
+   font-style: initial;
+   color: #3C7B89;
+   top: -400px;
+   left: -480px;
+  }
+  .tituloe:hover{
+    color: #15B5B3;
+  }
+  .botonex{
+    position: absolute;
+    top: -300px;
+    font-size: 20px;
+    height: 65px;
+    width: 180px;
+    left: -800px;
+    background-color: #3C7B89;
+    border: solid;
+    color: white;
+  }
+  .botonex:hover{
+  color: #3C7B89;
+  background-color: white;
+  }
