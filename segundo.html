@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>punto 2</title>
+    <script type="text/javascript">
+    var l=11;
+    </script>
+        <style type="text/css">
+        .emma{
+            position: absolute;
+            border:black;
+            height: 55%;
+            width: 30%; 
+            background-color: #13B16C;
+            left: 5%; 
+            top: 10%;
+            font-size: 58px;
+            border-radius: 25%;
+            text-align: center;
+            border: dashed;
+            font-family: initial;
+        }
+
+
+    </style>
+</head>
+<body onload="inicio()">
+
+<script>
+function inicio(){
+    setTimeout(decre,2000);
+}
+function decre(){
+    cronometro=setInterval(dismi,1000)
+}
+function dismi(){
+    l=l-1;
+    document.getElementById('cuadro').innerHTML=(l);
+    if (l==0) {
+        clearInterval(cronometro);
+        var t=document.getElementById('cuadro').innerHTML=("Finalizo la cuenta regresiva")
+    }
+}
+
+</script>
+    <div id="cuadro" class="emma"><br>El contador esta a punto de comenzar</div>
+</body>
+</html>
