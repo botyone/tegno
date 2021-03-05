@@ -448,3 +448,36 @@ body{
   color: #3C7B89;
   background-color: white;
   }
+  .botti{
+  position: absolute;
+  border: solid;
+  background-color: #3C7B89;
+  color: white;
+  height: 70px;
+  width: 170px;
+  left: -190px;
+  top: -300px;
+  font-size: 25px;
+ }
+ .botti:hover{
+  color:  #3C7B89;
+  background-color: white;
+  
+
+  }
+  .butt45{
+     position: absolute;
+  background-color: #458084;
+  color: black;
+  border: solid;
+  height: 50px;
+  width: 110px;
+  top: 530px;
+  font-size: 18px;
+  left: 990px;
+
+  }
+  .butt45:hover{
+  background-color: #214870;
+  color: white;
+	    }
