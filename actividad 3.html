@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="estilos2.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actividad 4</title>
+</head>
+<body onload="atl()" onclick="atl()">
+    
+    <div><div class="cua" id="cuad"></div></div>	
+
+    <div class="conten">
+    	<p>
+    	 <div class="tie">Tiempo: </div>
+
+         <div  class="tie2" id="tm"></div>
+         <div class="tie3" >Puntaje:</div>
+         <div  class="tie4" id="con"></div>
+         </p>
+    </div>  
+
+	<script>
+     
+     function atl() {
+        var px="px";
+        var width = Math.floor(Math.random() * ((701) - 10) + 10);
+        var wi = width+px;
+        document.getElementById('cuad').style.left=wi;
+        var height = Math.floor(Math.random() * ((201) - 50) + 50);
+        var he = height+px;
+        document.getElementById('cuad').style.top=he;
+        var score = document.getElementById('con');
+        scor+=20;
+        score.innerHTML=scor;
+}
+
+var scor=-20;  
+
+var t = 60;
+
+ funci = function (){
+    document.getElementById('tm').innerHTML= t;
+    if (t!=0) {
+ t-=1;
+    }
+    else{
+       
+
+                vi=prompt("1 = volver a jugar, 0 = terminar juego");
+        if (vi==1) {
+          t=60;
+          scor=0;
+        }
+        else if (vi==0) {
+            clearInterval(ti);
+        }
+
+    }
+}
+
+ti=setInterval(funci,200);   
+    </script>
+      <a href="index.html">
+        <button class="but001">Home</button>
+        </a>
+
+</body>
+</html>
